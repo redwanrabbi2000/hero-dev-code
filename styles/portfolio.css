@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.btn {
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    background-color: #fd6e0a;
+    
+    border-radius: 5px;
+   
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color: #fff8f3;
+    padding-top: 50px
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+   
+}
+.color-orange{
+    color: #fd6e0a;
+}
+nav{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+nav .menu li a{
+   
+    color: #474747;
+    font-size: 20px;
+   text-decoration: none;
+}
